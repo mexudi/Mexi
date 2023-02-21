@@ -7,9 +7,13 @@ import calendar
 import random
 import wikipedia
 from audio_record import recordAudio
+from resp_assistant import assistaneResponse 
 
 # Ignore any warning messages
 warnings.filterwarnings('ignore')
 
 # Test record audio
-recordAudio()
+#recordAudio()
+
+text  = 'This is a test'
+assistaneResponse(text)
