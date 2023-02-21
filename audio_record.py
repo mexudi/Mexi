@@ -1,6 +1,15 @@
+import speech_recognition as sr
+import os
+from gtts import gTTS
+import datetime
+import warnings
+import calendar
+import random
+import wikipedia
+
 def recordAudio():
     # record the audio
-    r = sr.Recongnizer() #creating a recongnizer object
+    r = sr.Recognizer() #creating a recongnizer object
 
     # Open the microphone and start recording
     with sr.Microphone() as source:

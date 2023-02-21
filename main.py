@@ -1,15 +1,15 @@
-import speech_recongnition as sr
-import sr
+import speech_recognition as sr
+import os
 from gtts import gTTS
 import datetime
 import warnings
 import calendar
 import random
 import wikipedia
-import recordAudio from audio_record
+from audio_record import recordAudio
 
 # Ignore any warning messages
-warning.filterwarnings('ignore')
+warnings.filterwarnings('ignore')
 
 # Test record audio
 recordAudio()
