@@ -8,7 +8,8 @@ import random
 import wikipedia
 from audio_record import recordAudio
 from resp_assistant import assistaneResponse
-from wake_words.py import  wakeWord 
+from wake_words.py import  wakeWord
+from get_date import getDate
 
 # Ignore any warning messages
 warnings.filterwarnings('ignore')
@@ -17,4 +18,7 @@ warnings.filterwarnings('ignore')
 #recordAudio()
 
 text  = 'This is a test'
-assistaneResponse(text)
+#assistaneResponse(text)
+
+# Test get date function
+getDate()
